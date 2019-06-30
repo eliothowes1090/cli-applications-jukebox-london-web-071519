@@ -87,7 +87,7 @@ def run(songs)
     when "play"
       play(songs)
     else
-      puts "Invalid Entry"
+      puts "Invalid Entry!"
   end
 
 end
