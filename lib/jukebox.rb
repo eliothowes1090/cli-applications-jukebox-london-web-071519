@@ -80,8 +80,14 @@ def run(songs)
     when "exit"
       exit_jukebox
       break
+    when "help"
+      help
+    when "list"
+      list(songs)
     when "play"
       play(songs)
+    else
+      puts "Invalid Entry"
   end
 
 end
