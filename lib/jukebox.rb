@@ -58,11 +58,11 @@ end
 
 def run(songs)
   help
-  puts "Please enter a command:"
 
-  user_input = gets.chomp
 
   while user_input != exit do
+  puts "Please enter a command:"
+  user_input = gets.chomp
     if user_input == "help"
        help
     elsif user_input == "list"
