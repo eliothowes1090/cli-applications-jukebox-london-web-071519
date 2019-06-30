@@ -58,20 +58,20 @@ end
 
 def run(songs)
   help
-
-  puts "Please enter a command:"
-  user_input = gets.chomp
-
-  # while user_input != exit do
-  #   if user_input == "help"
-  #      help
-  #   elsif user_input == "list"
-  #      list(songs)
-  #   elsif user_input == "play"
-  #      play(songs)
-  #   end
+  # 
+  # puts "Please enter a command:"
   # user_input = gets.chomp
-  # end
+  # 
+  # # while user_input != exit do
+  # #   if user_input == "help"
+  # #      help
+  # #   elsif user_input == "list"
+  # #      list(songs)
+  # #   elsif user_input == "play"
+  # #      play(songs)
+  # #   end
+  # # user_input = gets.chomp
+  # # end
 
   while true do
     puts "Please enter a command:"
@@ -88,6 +88,7 @@ def run(songs)
       play(songs)
     else
       puts "Invalid Entry!"
+    end
   end
 
 end
